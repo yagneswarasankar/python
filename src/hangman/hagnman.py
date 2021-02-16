@@ -1,16 +1,12 @@
-from turtle import clear
+from src.hangman.hangman_art import logo,stages
+from src.hangman.hangman_word import word_list
 
-from hangman_art import stages,logo
-from hangman_word import word_list
-from random import choice
-from os import system
+import random
 
-def clear():
-    system('cls')
 #Constants needed
 letters_to_display = []
 print(logo)
-chosen_word  = choice(word_list).lower()
+chosen_word  = random.choice(word_list).lower()
 length_of_chosen_word = len(chosen_word)
 lives = 6
 print(chosen_word)
@@ -22,8 +18,7 @@ print(letters_to_display)
 end_game = False
 
 while not end_game: #"_" in letters_to_display:
-    guess = raw_input("Guess a letter: ").lower()
-    clear()
+    guess = input("Guess a letter: ").lower()
     print("guessed letter is : " + guess)
     if guess in letters_to_display:
         print("The letter already guessed")
