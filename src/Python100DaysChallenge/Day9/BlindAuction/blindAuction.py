@@ -1,5 +1,5 @@
 # from replit import clear
-from src.BlindAuction.art import logo
+from src.Python100DaysChallenge.Day9.BlindAuction.art import logo
 import os
 #HINT: You can call clear() to clear the output in the console.
 print(logo)
