@@ -1,5 +1,5 @@
 import random
-from src.Python100DaysChallenge.Day11.art import logo
+from src.Python100DaysChallenge.Day11_BlackJack.art import logo
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 play_option = input("Do you want to play the game blackJack :  Y for YES and N for NO : ")
 if play_option == "Y":
