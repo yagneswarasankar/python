@@ -1,6 +1,6 @@
-from src.Python100DaysChallenge.Day_17_OOP_Specific.QuizProgram.question_model import Question
-from src.Python100DaysChallenge.Day_17_OOP_Specific.QuizProgram.data import  question_data
-from src.Python100DaysChallenge.Day_17_OOP_Specific.QuizProgram.quiz_brain import QuizBrain
+from src.Python100DaysChallenge.Day17_OOP_Specific.QuizProgram.question_model import Question
+from src.Python100DaysChallenge.Day17_OOP_Specific.QuizProgram.data import  question_data
+from src.Python100DaysChallenge.Day17_OOP_Specific.QuizProgram.quiz_brain import QuizBrain
 
 question_bank = []
 #question_object = Question()
