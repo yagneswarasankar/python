@@ -67,10 +67,22 @@
 # ##
 # #Q7 Does python lists store values or pointers
 # ##
-a = 1
-b = 2
-list73 = [1,2,3]
-print("id(a): "+ str(id(a)))
-print("id(b): "+ str(id(b)))
-print("id(list73): "+ str(id(list73)))
-print("id(list73[0]):" + str(id(list73[0])))
+# a = 1
+# b = 2
+# list73 = [1,2,3]
+# print("id(a): "+ str(id(a)))
+# print("id(b): "+ str(id(b)))
+# print("id(list73): "+ str(id(list73)))
+# print("id(list73[0]):" + str(id(list73[0])))
+
+
+###
+# #Q8 What does “del” do?
+#del removes an item from a list given its index.
+
+list = [2,3,4,3]
+print(list[:2])
+print(list[1:])
+
+
+
